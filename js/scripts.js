@@ -1,21 +1,25 @@
-const num1 = 1;
-const num2 = 2;
-const num3 = 3;
-
-
-// function 1 const array(user input)
-
 function beepBoop(text) {
   const userNumber = parseInt(text);
   const finalArray = [];
   for (i = 0; i <= userNumber; i++) {
     finalArray.push(i);
-    }
-  return finalArray; 
+  }
+  return modifyArray(finalArray); 
 }
 
-// Test: "It should replace all digits in a number containing 1 with "Beep!""
-
-function beep(finalArray) {
-  
+function modifyArray(numArray) {
+  const beepArray = [];
+  for (let i = 0; i < numArray.length; i++) {
+    if (numArray[i].toString().includes("3")) {
+      beepArray.push("Won't you be my neighbor");
+    } else if (numArray[i].toString().includes("2")) {
+      beepArray.push("Boop!");
+    } else if (numArray[i].toString().includes("1")) {
+      beepArray.push("Beep!"); 
+    } else {
+      beepArray.push(numArray[i]);
+    }
+    
+  }
+  return beepArray;
 }
