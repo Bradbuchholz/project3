@@ -33,7 +33,7 @@ _Test: "It should replace all digits in a number containing 2 with "Boop!""_
 _Code: Boop(2)_
 _Expected Output: 207 is replaced with "Boop!"_
 
-_Test 4
+_Test 4_
 _Describe: Won't you be my neighbor?()_
 _Test: "It should replace all digits in a number containing 3 with "Won't you be my neighbor?""_
 _Code: Neighbor()_
