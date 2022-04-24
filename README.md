@@ -15,29 +15,26 @@ _This is a JavaScript program that will return an array from index 0 to the user
 
 ## Tests
 
-_Test 1_
-_Describe: beebBoop()_
-_Test: "It should return an array of numbers from 0 to the user's inputted number"_
-_Code: beepBoop(5)_
-_Expected Output: [0, 1, 2, 3, 4, 5]_
-
-_Test 2_
-_Describe: Beep()_
-_Test: "It should replace all digits in a number containing 1 with "Beep!""_
-_Code: modifyArray(1)_
-_Expected Output: 104 is replaced with "Beep!"_
-
-_Test 3_
-_Describe: Boop()_
-_Test: "It should replace all digits in a number containing 2 with "Boop!""_
-_Code: Boop(2)_
-_Expected Output: 207 is replaced with "Boop!"_
-
-_Test 4_
-_Describe: Won't you be my neighbor?()_
-_Test: "It should replace all digits in a number containing 3 with "Won't you be my neighbor?""_
-_Code: Neighbor()_
-_Expected Output: 38 is replaced with "Won't you be my neighbor?"_
+# _Test 1_
+*_Test: "It should return an array of numbers from 0 to the user's inputted number"_
+*_Code: beepBoop(5)_
+*_Expected Output: [0, 1, 2, 3, 4, 5]_
+# _Test 2_
+*_Describe: Beep()_
+*_Test: "It should replace all digits in a number containing 1 with "Beep!""_
+*_Code: modifyArray(1)_
+*_Expected Output: 104 is replaced with "Beep!"_
+# _Test 3_
+*_Describe: Boop()_
+*_Test: "It should replace all digits in a number containing 2 with "Boop!""_
+*_Code: Boop(2)_
+*_Expected Output: 207 is replaced with "Boop!"_
+# _Test 4_
+*_Describe: Won't you be my neighbor?()_
+*_Test: "It should replace all digits in a number containing 3 with "Won't you be my neighbor?""_
+*_Code: Neighbor()_
+*_Expected Output: 38 is replaced with "Won't you be my neighbor?"_
+*_Describe: beebBoop()_
 
 _after tests were perfomed code was rewritten and simplified. Still meets all requirements, but not all variables are present in final code._
 
