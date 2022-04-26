@@ -24,10 +24,11 @@ function modifyArray(numArray) {
   return beepArray;
 }
 
-$(document).ready(function()  {
-  $("form#hood").submit(function(event) {
+$(document).ready(function() {
+  $("#hood").submit(function(event) {
     event.preventDefault();
-    let userNumber;
-    $("#output").text(beepArray(userNumber)) 
+    const result = output;
+    $('#output').text(beepArray(userNumber));
   })
+  return output;
 });
