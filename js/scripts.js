@@ -25,9 +25,10 @@ function modifyArray(numArray) {
 }
 
 $(document).ready(function() {
-  $("#hood").submit(function(event) {
-    let numbersInput = parseInt($("input#numbers").val());
-    let showing = beepArray.push(numArray[i]);
+  $("form#hood").submit(function(event) {
     event.preventDefault();
+    const input = beepBoop();
+    const result = modifyArray;
+    $("output").text(result);
   });
-});
+});  
