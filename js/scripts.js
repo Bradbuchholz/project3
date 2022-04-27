@@ -27,7 +27,6 @@ $(document).ready(function() {
   $("form#hood").submit(function(event) {
     event.preventDefault();
     const userInput = $('#numbers').val();
-    console.log(userInput);
     $('#output').text(beepBoop(userInput));
   });
 });
