@@ -27,8 +27,7 @@ function modifyArray(numArray) {
 $(document).ready(function() {
   $("form#hood").submit(function(event) {
     event.preventDefault();
-    const input = beepBoop();
-    const result = modifyArray;
-    $("output").text(result);
+    const userNumber = modifyArray();
+    $('#output').text(beepArray(userNumber))
   });
-});  
+});
