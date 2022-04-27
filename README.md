@@ -46,7 +46,7 @@ _after tests were perfomed code was rewritten and simplified. Still meets all re
 
 ## Known Bugs
 
-* _Button is currently broken and is not returning results on index.html_
+* _No known bugs at this time_
 
 ## License
 
