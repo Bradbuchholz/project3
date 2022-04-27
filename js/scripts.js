@@ -28,6 +28,6 @@ $(document).ready(function() {
     event.preventDefault();
     const userInput = $('#numbers').val();
     console.log(userInput);
-    $('#output').text(beepArray(userNumber));
+    $('#output').text(beepBoop(userInput));
   });
 });
