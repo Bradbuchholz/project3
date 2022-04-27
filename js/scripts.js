@@ -26,9 +26,8 @@ function modifyArray(numArray) {
 
 $(document).ready(function() {
   $("#hood").submit(function(event) {
+    let numbersInput = parseInt($("input#numbers").val());
+    let showing = beepArray.push(numArray[i]);
     event.preventDefault();
-    const result = output;
-    $('#output').text(beepArray(userNumber));
-  })
-  return output;
+  });
 });
